@@ -166,7 +166,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
     height: 79px;
     background: #32864B;
     right: 68%;
-    top: 25px;
+    top: -4px;
     clip-path: polygon(100% 43%, 100% 43%, -29% 100%, 8% 8%);
     z-index: -999;
 }
@@ -189,7 +189,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
     color: #141422;
     font-size: 17px;
     font-weight: 500;
-    padding: 46px 0;
+    padding: 20px 0;
     text-decoration: none;
     transition: .5s;
 }
@@ -282,13 +282,14 @@ a.handbag:before {
     width: 100%;
   }
   .roofing-menu ul .sub-menu ul li a {
-    padding: 12px 20px;
+    padding: 4px 20px;
     text-align: left;
     width: 100%;
     display: inline-block;
     visibility: inherit !important;
     color: #202020;
     margin: 0;
+    border-bottom: 1px solid #eaeaea;
   }
   .roofing-menu ul .sub-menu ul li a:hover {
     background: #32864B !important;
