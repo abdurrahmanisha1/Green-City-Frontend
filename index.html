@@ -378,7 +378,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 border">
+			<div class="col-lg-4 border" style="background-color: #f6f6f6;">
 				<!-- <div class="slider-list owl-carousel"> -->
 				<!-- <div class="slider-section d-flex align-items-center"> -->
 				<div class="container">
@@ -425,21 +425,21 @@
 		<div class="faq-section mt-0 pt-4 pb-3">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 col-md-12">
+					<div class="col-lg-6 col-md-6 col-12">
 						<div
 							class="section-title wow fadeInUp animated animated animated animated text-center"
 							style="visibility: visible;">
 							<h1 class>নোটিস</h1>
-							<div class="section-main-title faq">
+							<!-- <div class="section-main-title faq">
 								<h2>Update News Section</h2>
-							</div>
+							</div> -->
 						</div>
 						<!-- Start Accordion -->
 						<div class="tab_container">
 							<div id="tab1" class="tab_content">
 								<ul class="accordion">
 									<div class="row">
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-12 col-12">
 											<li>
 												<a class><span> What warranties do I have for installation? </span></a>
 												<p style="display: none;">The time it takes to repair a roof depends
@@ -449,7 +449,7 @@
 													A or team might be at your home for half a day.</p>
 											</li>
 										</div>
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-12 col-12">
 											<li>
 												<a class><span> What warranties do I have for installation? </span></a>
 												<p style="display: none;">The time it takes to repair a roof depends
@@ -459,7 +459,7 @@
 													A or team might be at your home for half a day.</p>
 											</li>
 										</div>
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-12 col-12">
 											<li>
 												<a class><span> What warranties do I have for installation? </span></a>
 												<p style="display: none;">The time it takes to repair a roof depends
@@ -469,7 +469,7 @@
 													A or team might be at your home for half a day.</p>
 											</li>
 										</div>
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-12 col-12">
 											<li>
 												<a class><span> What warranties do I have for installation? </span></a>
 												<p style="display: none;">The time it takes to repair a roof depends
@@ -479,7 +479,7 @@
 													A or team might be at your home for half a day.</p>
 											</li>
 										</div>
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-12 col-12">
 											<li>
 												<a class><span> What warranties do I have for installation? </span></a>
 												<p style="display: none;">The time it takes to repair a roof depends
@@ -489,7 +489,27 @@
 													A or team might be at your home for half a day.</p>
 											</li>
 										</div>
-										<div class="col-lg-6 col-12">
+										<div class="col-lg-12 col-12">
+											<li>
+												<a class><span> What warranties do I have for installation? </span></a>
+												<p style="display: none;">The time it takes to repair a roof depends
+													on the extent of the damage.
+													For minor repairs, it might take an hour or two. For significant
+													repairs,
+													A or team might be at your home for half a day.</p>
+											</li>
+										</div>
+										<div class="col-lg-12 col-12">
+											<li>
+												<a class><span> What warranties do I have for installation? </span></a>
+												<p style="display: none;">The time it takes to repair a roof depends
+													on the extent of the damage.
+													For minor repairs, it might take an hour or two. For significant
+													repairs,
+													A or team might be at your home for half a day.</p>
+											</li>
+										</div>
+										<div class="col-lg-12 col-12">
 											<li>
 												<a class><span> What warranties do I have for installation? </span></a>
 												<p style="display: none;">The time it takes to repair a roof depends
@@ -505,6 +525,59 @@
 						</div>
 						<!-- End Accordion -->
 					</div>
+					<div class="col-lg-6 col-md-6 col-12">
+						<!-- Start Accordion -->
+						<div
+						class="section-title wow fadeInUp animated animated animated animated text-center"
+						style="visibility: visible;">
+						<h1>এক নজরে পৌরসভা</h1>
+						<table class="table table-bordered">
+							<tr>
+								<th>পৌরসভার নাম</th>
+								<td>পাঁচবিবি</td>
+								<th>স্থাপিত</th>
+								<td>1998</td>
+							</tr>
+							<tr>
+								<th>শ্রেণী</th>
+								<td>ক</td>
+								<th>উপজেলা</th>
+								<td>জয়পুর হাট</td>
+							</tr>
+							<tr>
+								<th>জেলা</th>
+								<td>জয়পুরহাট</td>
+								<th>বিভাগ</th>
+								<td>রাজশাহী</td>
+							</tr>
+							<tr>
+								<th>আয়তন </th>
+								<td>১০.০০ বর্গ কিঃ মিঃ</td>
+								<th>ওয়ার্ড সংখ্যা</th>
+								<td>9</td>
+							</tr>
+							<tr>
+								<th>জনসংখ্যা </th>
+								<td>36725</td>
+							</tr>
+						</table>
+					</div>
+						<div class style>
+							<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+							<div id="myPlo11t" style="width:100%;max-width:700px"></div>
+							<script>
+								const xArray = ["হতদরিদ্র ", "দরিদ্র", "ধনী", "মধ্যবিত্ত"];
+								const yArray = [55, 49, 44, 30];
+
+								const layout = {title:""};
+
+								const data = [{labels:xArray, values:yArray, hole:.4, type:"pie"}];
+
+								Plotly.newPlot("myPlo11t", data, layout);
+							</script>
+						</div>
+						<!-- End Accordion -->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -516,8 +589,11 @@
 		<!-- Start Roofing Appointment Area  -->
 		<!--==================================================-->
 
-		<div class="appointment-area">
+		<div class="appointment-area" sty>
 			<div class="container">
+				<h1 class="text-center m-0 mb-4">
+					সেবাসমূহ
+				</h1>
 				<div class="row">
 					<div class="col-lg-2 col-md-2 mb-4 col-6">
 						<div class="content-services border text-center">
