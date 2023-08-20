@@ -433,7 +433,7 @@ a.handbag:before {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 770px;
+    height: 500px;
     position: relative;
 }
 
@@ -2310,7 +2310,6 @@ span.fill {
     position: relative;
     z-index: 1;
     background: #f3f3f3;
-    margin-bottom: 27px;
     border-radius: 3px;
 }
 
